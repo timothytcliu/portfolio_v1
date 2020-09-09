@@ -1,5 +1,6 @@
 import React from 'react';
 // import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.css';
 import Navbar from './components/navbar';
 import Hero from './components/hero';
 import Projects from './components/projects';

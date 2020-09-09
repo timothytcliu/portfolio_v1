@@ -1,13 +1,19 @@
 import React from 'react';
-import { Jumbotron } from 'reactstrap';
+import { Jumbotron, Container, Row, Col } from 'reactstrap';
 
 const Hero = () => {
   return (
     <>
-      <Jumbotron>
-        <h1>Timothy Liu</h1>
-        <p>My Portfolio</p>
-        <hr />
+      <Jumbotron fluid>
+        <Container fluid>
+          <Row>
+            <Col s="12">
+              <h1 className="display-1"> Timothy Liu </h1>
+            </Col>
+          </Row>
+          <p>Welcome To My Portfolio</p>
+          <hr />
+        </Container>
       </Jumbotron>
     </>
   );
