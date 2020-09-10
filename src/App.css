@@ -10,6 +10,10 @@
   color: white;
 }
 
+.card {
+  color: black;
+}
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;

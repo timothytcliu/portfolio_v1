@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 
 const Navbar = () => {
   return (
-    <div>
+    <>
       <Container>
         <Row>
           <Col>
@@ -17,7 +17,7 @@ const Navbar = () => {
           </Col>
         </Row>
       </Container>
-    </div>
+    </>
   );
 };
 

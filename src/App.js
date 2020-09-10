@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
-      <Projects />
+      <Projects className="card" />
     </div>
   );
 }

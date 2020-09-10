@@ -4,7 +4,7 @@ import { Jumbotron, Container, Row, Col } from 'reactstrap';
 const Hero = () => {
   return (
     <>
-      <Jumbotron fluid>
+      <Jumbotron fluid style={{ backgroundColor: '#8080806b' }}>
         <Container fluid>
           <Row>
             <Col s="12">
