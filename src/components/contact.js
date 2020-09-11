@@ -1,9 +1,26 @@
-import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import React, { useState } from 'react';
+import { Container, Row, Col, Popover, PopoverHeader } from 'reactstrap';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { FiMail } from 'react-icons/fi';
 
-const Navbar = () => {
+const EmailPopover = props => {
+  return (
+    <Popover
+      placement="bottom"
+      isOpen={props.popoverOpen}
+      target="emailPopper"
+      toggle={props.toggle}
+    >
+      <PopoverHeader>timothytcliu@gmail.com</PopoverHeader>
+    </Popover>
+  );
+};
+
+const Contacts = () => {
+  const [popoverOpen, setPopoverOpen] = useState(false);
+
+  const toggle = () => setPopoverOpen(!popoverOpen);
+
   return (
     <>
       <Container>
@@ -11,23 +28,21 @@ const Navbar = () => {
           style={{
             margin: '0',
             padding: '0',
-            fontSize: 'calc(8px + 1.5vmin)',
           }}
         >
           <Col>
-            <p>
-              <FaLinkedin color="#0e76a8" />
-            </p>
-          </Col>
-          <Col>
-            <p>
-              <FaGithub />
-            </p>
-          </Col>
-          <Col>
-            <p>
+            <h2>
+              <a
+                href="https://www.linkedin.com/in/timothy-liu-784990138/"
+                target="_blank"
+              >
+                <FaLinkedin color="#0e76a8" />
+              </a>{' '}
+              <a href="https://github.com/timothytcliu" target="_blank">
+                <FaGithub color="white" />
+              </a>{' '}
               <FiMail color="#D44638" />
-            </p>
+            </h2>
           </Col>
         </Row>
       </Container>
@@ -35,4 +50,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Contacts;

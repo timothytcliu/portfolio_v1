@@ -2,6 +2,7 @@ import React from 'react';
 import { Jumbotron, Container, Row, Col } from 'reactstrap';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { FiMail } from 'react-icons/fi';
+import Contacts from './contact';
 
 const Hero = () => {
   return (
@@ -19,7 +20,8 @@ const Hero = () => {
               <br />
             </Col>
           </Row>
-          <Row
+          <Contacts />
+          {/* <Row
             style={{
               margin: '0',
               padding: '0',
@@ -27,11 +29,19 @@ const Hero = () => {
           >
             <Col>
               <h2>
-                <FaLinkedin color="#0e76a8" /> <FaGithub />{' '}
+                <a
+                  href="https://www.linkedin.com/in/timothy-liu-784990138/"
+                  target="_blank"
+                >
+                  <FaLinkedin color="#0e76a8" />
+                </a>{' '}
+                <a href="https://github.com/timothytcliu" target="_blank">
+                  <FaGithub color="white" />
+                </a>{' '}
                 <FiMail color="#D44638" />
               </h2>
             </Col>
-          </Row>
+          </Row> */}
         </Container>
       </Jumbotron>
     </>
