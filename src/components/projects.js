@@ -4,11 +4,9 @@ import {
   Row,
   Col,
   Card,
-  CardImg,
   CardText,
   CardBody,
   CardTitle,
-  CardSubtitle,
   Button,
 } from 'reactstrap';
 
@@ -18,76 +16,96 @@ const Projects = () => {
       <Container>
         <Row>
           <Col>
-            <Card>
+            <Card className="mb-4">
               <CardBody>
                 <CardTitle>[Project Title]</CardTitle>
               </CardBody>
               <img
                 width="100%"
                 src="#"
-                alt="[project image/gif]"
+                alt="[project screenshot/gif]"
                 style={{ backgroundColor: 'gray' }}
               />
               <CardBody>
                 <CardText>[Card subtitle]</CardText>
-                <Button href="#">Code</Button>
-                <Button href="#">Live</Button>
-              </CardBody>
-            </Card>
-          </Col>
-          <Col>
-            <Card>
-              <CardBody>
-                <CardTitle>[Project Title]</CardTitle>
-              </CardBody>
-              <img
-                width="100%"
-                src="#"
-                alt="[project image/gif]"
-                style={{ backgroundColor: 'gray' }}
-              />
-              <CardBody>
-                <CardText>[Card subtitle]</CardText>
-                <Button href="#">Code</Button>
-                <Button href="#">Live</Button>
+                <Button href="#" className="mr-3">
+                  Code
+                </Button>
+                <Button href="#" className="ml-3">
+                  Live
+                </Button>
               </CardBody>
             </Card>
           </Col>
         </Row>
         <Row>
           <Col>
-            <Card>
+            <Card className="mb-4">
               <CardBody>
                 <CardTitle>[Project Title]</CardTitle>
               </CardBody>
               <img
                 width="100%"
                 src="#"
-                alt="[project image/gif]"
+                alt="[project screenshot/gif]"
                 style={{ backgroundColor: 'gray' }}
               />
               <CardBody>
                 <CardText>[Card subtitle]</CardText>
-                <Button href="#">Code</Button>
-                <Button href="#">Live</Button>
+                <Button href="#" className="mr-3">
+                  Code
+                </Button>
+                <Button href="#" className="ml-3">
+                  Live
+                </Button>
               </CardBody>
             </Card>
           </Col>
+        </Row>
+        <Row>
           <Col>
-            <Card>
+            <Card className="mb-4">
               <CardBody>
                 <CardTitle>[Project Title]</CardTitle>
               </CardBody>
               <img
                 width="100%"
                 src="#"
-                alt="[project image/gif]"
+                alt="[project screenshot/gif]"
                 style={{ backgroundColor: 'gray' }}
               />
               <CardBody>
                 <CardText>[Card subtitle]</CardText>
-                <Button href="#">Code</Button>
-                <Button href="#">Live</Button>
+                <Button href="#" className="mr-3">
+                  Code
+                </Button>
+                <Button href="#" className="ml-3">
+                  Live
+                </Button>
+              </CardBody>
+            </Card>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Card className="mb-4">
+              <CardBody>
+                <CardTitle>[Project Title]</CardTitle>
+              </CardBody>
+              <img
+                width="100%"
+                src="#"
+                alt="[project screenshot/gif]"
+                style={{ backgroundColor: 'gray' }}
+              />
+              <CardBody>
+                <CardText>[Card subtitle]</CardText>
+                <Button href="#" className="mr-3">
+                  Code
+                </Button>
+                <Button href="#" className="ml-3">
+                  Live
+                </Button>
               </CardBody>
             </Card>
           </Col>
