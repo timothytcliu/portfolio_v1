@@ -6,9 +6,10 @@ import { FiMail } from 'react-icons/fi';
 const EmailPopover = props => {
   return (
     <Popover
+      trigger="legacy"
       placement="bottom"
       isOpen={props.popoverOpen}
-      target="emailPopper"
+      target="emailPopover"
       toggle={props.toggle}
     >
       <PopoverHeader>timothytcliu@gmail.com</PopoverHeader>
@@ -41,7 +42,8 @@ const Contacts = () => {
               <a href="https://github.com/timothytcliu" target="_blank">
                 <FaGithub color="white" />
               </a>{' '}
-              <FiMail color="#D44638" />
+              <FiMail color="#D44638" id="emailPopover" />
+              <EmailPopover popoverOpen={popoverOpen} toggle={toggle} />{' '}
             </h2>
           </Col>
         </Row>

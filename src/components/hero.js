@@ -1,7 +1,7 @@
 import React from 'react';
 import { Jumbotron, Container, Row, Col } from 'reactstrap';
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import { FiMail } from 'react-icons/fi';
+// import { FaLinkedin, FaGithub } from 'react-icons/fa';
+// import { FiMail } from 'react-icons/fi';
 import Contacts from './contact';
 
 const Hero = () => {
