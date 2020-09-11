@@ -25,20 +25,11 @@ const Hero = () => {
               padding: '0',
             }}
           >
-            <Col style={{ textAlign: 'right' }}>
-              <h3>
-                <FaLinkedin color="#0e76a8" />
-              </h3>
-            </Col>
             <Col>
-              <h3>
-                <FaGithub />
-              </h3>
-            </Col>
-            <Col style={{ textAlign: 'left' }}>
-              <h3>
+              <h2>
+                <FaLinkedin color="#0e76a8" /> <FaGithub />{' '}
                 <FiMail color="#D44638" />
-              </h3>
+              </h2>
             </Col>
           </Row>
         </Container>
