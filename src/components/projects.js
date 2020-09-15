@@ -13,9 +13,9 @@ import {
 const Projects = () => {
   return (
     <>
-      <Container>
+      <Container fluid="lg">
         <Row>
-          <Col>
+          <Col className="px-0">
             <Card className="mb-4">
               <CardBody>
                 <CardTitle>[Project Title]</CardTitle>
@@ -28,10 +28,10 @@ const Projects = () => {
               />
               <CardBody>
                 <CardText>[Card subtitle]</CardText>
-                <Button href="#" className="mr-3">
+                <Button href="#" className="mr-3" size="sm">
                   Code
                 </Button>
-                <Button href="#" className="ml-3">
+                <Button href="#" className="ml-3" size="sm">
                   Live
                 </Button>
               </CardBody>
@@ -39,7 +39,7 @@ const Projects = () => {
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col className="px-0">
             <Card className="mb-4">
               <CardBody>
                 <CardTitle>[Project Title]</CardTitle>
@@ -52,10 +52,10 @@ const Projects = () => {
               />
               <CardBody>
                 <CardText>[Card subtitle]</CardText>
-                <Button href="#" className="mr-3">
+                <Button href="#" className="mr-3" size="sm">
                   Code
                 </Button>
-                <Button href="#" className="ml-3">
+                <Button href="#" className="ml-3" size="sm">
                   Live
                 </Button>
               </CardBody>
@@ -63,7 +63,7 @@ const Projects = () => {
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col className="px-0">
             <Card className="mb-4">
               <CardBody>
                 <CardTitle>[Project Title]</CardTitle>
@@ -76,10 +76,10 @@ const Projects = () => {
               />
               <CardBody>
                 <CardText>[Card subtitle]</CardText>
-                <Button href="#" className="mr-3">
+                <Button href="#" className="mr-3" size="sm">
                   Code
                 </Button>
-                <Button href="#" className="ml-3">
+                <Button href="#" className="ml-3" size="sm">
                   Live
                 </Button>
               </CardBody>
@@ -87,7 +87,7 @@ const Projects = () => {
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col className="px-0">
             <Card className="mb-4">
               <CardBody>
                 <CardTitle>[Project Title]</CardTitle>
@@ -100,10 +100,10 @@ const Projects = () => {
               />
               <CardBody>
                 <CardText>[Card subtitle]</CardText>
-                <Button href="#" className="mr-3">
+                <Button href="#" className="mr-3" size="sm">
                   Code
                 </Button>
-                <Button href="#" className="ml-3">
+                <Button href="#" className="ml-3" size="sm">
                   Live
                 </Button>
               </CardBody>
