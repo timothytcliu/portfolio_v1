@@ -36,10 +36,15 @@ const Contacts = () => {
               <a
                 href="https://www.linkedin.com/in/timothy-liu-784990138/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <FaLinkedin color="#0e76a8" />
               </a>{' '}
-              <a href="https://github.com/timothytcliu" target="_blank">
+              <a
+                href="https://github.com/timothytcliu"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaGithub color="white" />
               </a>{' '}
               <FiMail color="#D44638" id="emailPopover" />
