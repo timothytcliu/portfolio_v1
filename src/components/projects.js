@@ -9,28 +9,24 @@ import {
   CardTitle,
   Button,
 } from 'reactstrap';
-import BootstrapNucamp from '../img/bootstrap-nucamp-project.png';
+import { projectsInfo } from './projectsInfo';
 
 /**
- * Displays app projects in reactstrap card elements
+ * Displays app projects in reactstrap card elements, dynamically from projectsInfo array.
  */
 const Projects = () => {
-  return (
-    <>
+  const renderProjects = projectsInfo.map(project => {
+    return (
       <Container fluid="lg">
         <Row>
           <Col className="px-0">
             <Card className="mb-4">
-              <img
-                width="100%"
-                src={BootstrapNucamp}
-                alt="bootstrap-nucamp-project"
-              />
+              <img width="100%" src={project.image} alt={project.alt} />
               <CardBody style={{ backgroundColor: 'gray' }}>
-                <CardTitle>Nu Camping</CardTitle>
-                <CardText>Technologies: HTML, Bootstrap 4</CardText>
+                <CardTitle>{project.name}</CardTitle>
+                <CardText>{project.technologies}</CardText>
                 <Button
-                  href="https://github.com/timothytcliu/Bootstrap-Nucamp-project"
+                  href={project.github}
                   target="_blank"
                   className="mr-3"
                   size="sm"
@@ -38,7 +34,7 @@ const Projects = () => {
                   Code
                 </Button>
                 <Button
-                  href="https://timothytcliu.github.io/Bootstrap-Nucamp-project/index.html"
+                  href={project.website}
                   target="_blank"
                   className="ml-3"
                   size="sm"
@@ -49,81 +45,11 @@ const Projects = () => {
             </Card>
           </Col>
         </Row>
-        <Row>
-          <Col className="px-0">
-            <Card className="mb-4">
-              <CardBody>
-                <CardTitle>[Project Title]</CardTitle>
-              </CardBody>
-              <img
-                width="100%"
-                src="#"
-                alt="[project screenshot/gif]"
-                style={{ backgroundColor: 'gray' }}
-              />
-              <CardBody>
-                <CardText>[Card subtitle]</CardText>
-                <Button href="#" className="mr-3" size="sm">
-                  Code
-                </Button>
-                <Button href="#" className="ml-3" size="sm">
-                  Live
-                </Button>
-              </CardBody>
-            </Card>
-          </Col>
-        </Row>
-        <Row>
-          <Col className="px-0">
-            <Card className="mb-4">
-              <CardBody>
-                <CardTitle>[Project Title]</CardTitle>
-              </CardBody>
-              <img
-                width="100%"
-                src="#"
-                alt="[project screenshot/gif]"
-                style={{ backgroundColor: 'gray' }}
-              />
-              <CardBody>
-                <CardText>[Card subtitle]</CardText>
-                <Button href="#" className="mr-3" size="sm">
-                  Code
-                </Button>
-                <Button href="#" className="ml-3" size="sm">
-                  Live
-                </Button>
-              </CardBody>
-            </Card>
-          </Col>
-        </Row>
-        <Row>
-          <Col className="px-0">
-            <Card className="mb-4">
-              <CardBody>
-                <CardTitle>[Project Title]</CardTitle>
-              </CardBody>
-              <img
-                width="100%"
-                src="#"
-                alt="[project screenshot/gif]"
-                style={{ backgroundColor: 'gray' }}
-              />
-              <CardBody>
-                <CardText>[Card subtitle]</CardText>
-                <Button href="#" className="mr-3" size="sm">
-                  Code
-                </Button>
-                <Button href="#" className="ml-3" size="sm">
-                  Live
-                </Button>
-              </CardBody>
-            </Card>
-          </Col>
-        </Row>
       </Container>
-    </>
-  );
+    );
+  });
+
+  return <>{renderProjects}</>;
 };
 
 export default Projects;
