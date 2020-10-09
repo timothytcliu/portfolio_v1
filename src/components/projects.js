@@ -12,7 +12,8 @@ import {
 import { projectsInfo } from './projectsInfo';
 
 /**
- * Displays app projects in reactstrap card elements, dynamically from projectsInfo array.
+ * Displays app projects in reactstrap card elements,
+ * dynamically rendered from imported projectsInfo array.
  */
 const Projects = () => {
   const renderProjects = projectsInfo.map(project => {

@@ -1,3 +1,8 @@
+/**
+ * projectsInfo is an array that contains data for each app/project, stored in objects.
+ * used by projects.js to render dynamically.
+ */
+
 import bootstrapNucamp from '../img/bootstrap-nucamp-project.png';
 import reactNucamp from '../img/react-nucampsite-project.png';
 
