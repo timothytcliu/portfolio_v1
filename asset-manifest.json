@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio_v1/static/css/main.fc56bfd0.chunk.css",
+    "main.js": "/portfolio_v1/static/js/main.b3467e15.chunk.js",
+    "main.js.map": "/portfolio_v1/static/js/main.b3467e15.chunk.js.map",
+    "runtime-main.js": "/portfolio_v1/static/js/runtime-main.faa108cd.js",
+    "runtime-main.js.map": "/portfolio_v1/static/js/runtime-main.faa108cd.js.map",
+    "static/css/2.8aa5a7f8.chunk.css": "/portfolio_v1/static/css/2.8aa5a7f8.chunk.css",
+    "static/js/2.17f17fca.chunk.js": "/portfolio_v1/static/js/2.17f17fca.chunk.js",
+    "static/js/2.17f17fca.chunk.js.map": "/portfolio_v1/static/js/2.17f17fca.chunk.js.map",
+    "index.html": "/portfolio_v1/index.html",
+    "precache-manifest.02ef9e8c4ff6be2d0be519cb036c9aba.js": "/portfolio_v1/precache-manifest.02ef9e8c4ff6be2d0be519cb036c9aba.js",
+    "service-worker.js": "/portfolio_v1/service-worker.js",
+    "static/css/2.8aa5a7f8.chunk.css.map": "/portfolio_v1/static/css/2.8aa5a7f8.chunk.css.map",
+    "static/css/main.fc56bfd0.chunk.css.map": "/portfolio_v1/static/css/main.fc56bfd0.chunk.css.map",
+    "static/js/2.17f17fca.chunk.js.LICENSE.txt": "/portfolio_v1/static/js/2.17f17fca.chunk.js.LICENSE.txt",
+    "static/media/bootstrap-nucamp-project.png": "/portfolio_v1/static/media/bootstrap-nucamp-project.6cabf67c.png",
+    "static/media/native-nucampsite.png": "/portfolio_v1/static/media/native-nucampsite.c7cec695.png",
+    "static/media/react-nucampsite-project.png": "/portfolio_v1/static/media/react-nucampsite-project.81653bee.png",
+    "static/media/youtube-party.png": "/portfolio_v1/static/media/youtube-party.84a05b90.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.faa108cd.js",
+    "static/css/2.8aa5a7f8.chunk.css",
+    "static/js/2.17f17fca.chunk.js",
+    "static/css/main.fc56bfd0.chunk.css",
+    "static/js/main.b3467e15.chunk.js"
+  ]
+}
