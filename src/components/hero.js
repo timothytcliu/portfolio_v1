@@ -3,11 +3,12 @@ import { Jumbotron, Container, Row, Col } from 'reactstrap';
 // import { FaLinkedin, FaGithub } from 'react-icons/fa';
 // import { FiMail } from 'react-icons/fi';
 import Contacts from './contact';
+import '../App.css';
 
 const Hero = () => {
   return (
     <>
-      <Jumbotron fluid style={{ backgroundColor: '#8080806b' }}>
+      <Jumbotron fluid className="hero">
         <Container fluid>
           <Row>
             <Col s="12">

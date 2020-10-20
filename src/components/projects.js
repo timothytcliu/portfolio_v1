@@ -10,6 +10,7 @@ import {
   Button,
 } from 'reactstrap';
 import { projectsInfo } from './projectsInfo';
+import '../App.css';
 
 /**
  * Displays app projects in reactstrap card elements,
@@ -23,7 +24,7 @@ const Projects = () => {
           <Col className="px-0">
             <Card className="mb-4">
               <img width="100%" src={project.image} alt={project.alt} />
-              <CardBody style={{ backgroundColor: 'gray' }}>
+              <CardBody className="card-color">
                 <CardTitle>{project.name}</CardTitle>
                 <CardText>{project.technologies}</CardText>
                 <Button
@@ -31,16 +32,18 @@ const Projects = () => {
                   target="_blank"
                   className="mr-3"
                   size="sm"
+                  color="info"
                 >
-                  Code
+                  See Code
                 </Button>
                 <Button
                   href={project.website}
                   target="_blank"
                   className="ml-3"
                   size="sm"
+                  color="info"
                 >
-                  Live
+                  See Website
                 </Button>
               </CardBody>
             </Card>
