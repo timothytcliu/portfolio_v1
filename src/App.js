@@ -8,7 +8,6 @@ function App() {
   return (
     <div className="App">
       <Hero />
-      {/* <Contact /> */}
       <Projects className="card" />
     </div>
   );
