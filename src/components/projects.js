@@ -19,7 +19,7 @@ import '../App.css';
 const Projects = () => {
   const renderProjects = projectsInfo.map(project => {
     return (
-      <Container fluid="lg">
+      <Container fluid="lg" key={project.id}>
         <Row>
           <Col className="px-0">
             <Card className="mb-4">

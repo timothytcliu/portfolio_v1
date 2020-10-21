@@ -10,6 +10,7 @@ import youtubeParty from '../img/youtube-party.png';
 
 export const projectsInfo = [
   {
+    id: 0,
     name: 'YouTube Party',
     technologies:
       'Technologies: React.js, Javascript, Redux, React-Router, Bootstrap',
@@ -19,6 +20,7 @@ export const projectsInfo = [
     alt: 'youtube-party-app',
   },
   {
+    id: 1,
     name: 'Nu Camping',
     technologies: 'Technologies: Bootstrap 4, HTML, CSS',
     github: 'https://github.com/timothytcliu/Bootstrap-Nucamp-project',
@@ -28,6 +30,7 @@ export const projectsInfo = [
     alt: 'bootstrap-nucamp-project',
   },
   {
+    id: 2,
     name: 'React Nu Camping',
     technologies:
       'Technologies: React.js, Javascript, Redux, React-Router, Bootstrap',
@@ -37,6 +40,7 @@ export const projectsInfo = [
     alt: 'react-nucamp-project',
   },
   {
+    id: 3,
     name: 'Native Nucampsite',
     technologies: 'Technologies: React-Native, Expo, Redux',
     github: 'https://github.com/timothytcliu/React-Native-nucamp-project',
