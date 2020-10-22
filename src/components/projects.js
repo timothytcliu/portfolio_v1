@@ -13,6 +13,30 @@ import { projectsInfo } from './projectsInfo';
 import '../App.css';
 
 /**
+ * Renders website link button conditionally based on props.
+ * @param {string} website The string from projectsInfo website property.
+ * @return {component} div If string is ''.
+ * @return {component} Button With URL link.
+ */
+const WebsiteButton = ({ website }) => {
+  if (website === '') {
+    return <div />;
+  } else {
+    return (
+      <Button
+        href={website}
+        target="_blank"
+        className="ml-3"
+        size="sm"
+        color="info"
+      >
+        See Website
+      </Button>
+    );
+  }
+};
+
+/**
  * Displays app projects in reactstrap card elements,
  * dynamically rendered from imported projectsInfo array.
  */
@@ -36,15 +60,7 @@ const Projects = () => {
                 >
                   See Code
                 </Button>
-                <Button
-                  href={project.website}
-                  target="_blank"
-                  className="ml-3"
-                  size="sm"
-                  color="info"
-                >
-                  See Website
-                </Button>
+                <WebsiteButton website={project.website} />
               </CardBody>
             </Card>
           </Col>

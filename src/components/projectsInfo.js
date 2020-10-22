@@ -44,7 +44,7 @@ export const projectsInfo = [
     name: 'Native Nucampsite',
     technologies: 'Technologies: React-Native, Expo, Redux',
     github: 'https://github.com/timothytcliu/React-Native-nucamp-project',
-    website: '#',
+    website: '',
     image: nativeNucamp,
     alt: 'react-native-nucamp',
   },
