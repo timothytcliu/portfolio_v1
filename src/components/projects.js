@@ -9,7 +9,7 @@ import {
   CardTitle,
   Button,
 } from 'reactstrap';
-import { projectsInfo } from './projectsInfo';
+import { projectsInfo } from './ProjectsInfo';
 import '../App.css';
 
 /**
